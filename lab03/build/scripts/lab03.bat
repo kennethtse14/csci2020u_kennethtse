@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\lab03.jar;%APP_HOME%\lib\commons-csv-1.8.jar
+set CLASSPATH=%APP_HOME%\lib\lab03-1.0.jar;%APP_HOME%\lib\commons-csv-1.8.jar
 
 @rem Execute lab03
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LAB03_OPTS%  -classpath "%CLASSPATH%" csci2020u.lab03.CSVDemo %CMD_LINE_ARGS%
